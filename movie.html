@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+	<meta charset="UTF-8">
+	<title>Watch Movies Online</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="styles/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="styles/bootsrap.min.css" type="text/css" media="all" />
+	<link rel="shortcut icon" href="images/video-favicon.png" type="image/x-icon" />
+<script type="text/javascript" src="javascript/jQuery.js"></script>
+<script type="text/javascript" src="javascript/carousel.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://use.fontawesome.com/6317ef1fe0.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body onLoad="if (self != top) top.location=self.location" class="home blog" itemscope itemtype="http://schema.org/WebPage">
+<header class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+<div class="wrap">
+<div class="site-title" itemprop="headline">
+<a title="Movie Store" href="">Movie<span>Store</span> <i class="fa fa-film" aria-hidden="true"></i> </a>
+<div class="switcher">
+	<a class="switcher-mode-on hide">Night Mode On</a>
+	<a class="switcher-mode-off hide">Night Mode Off</a>
+</div>
+</div>
+<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<span class="menu-btn"><img src="images/menu_outline.png" alt="picture"></span>
+	<ul class="header-menu pushy pushy-left">
+	<li class="pushy-submenu">
+		<span>Categories</span>
+		<div class="ff-hide">
+	    <ul id="menu-kategoriler" class="menu">
+<li><a href="*/Action"> Action</a></li>
+<li><a href="*/Adventure">Adventure</a></li>
+<li><a href="*/Animation">Animation</a></li>
+<li><a href="*/Biography">Biography</a></li>
+<li><a href="*/Cartoon">Cartoon</a></li>
+<li><a href="*/Comedy">Comedy</a></li>
+<li><a href="*/Detective">Detective</a></li>
+<li><a href="*/Documentary">Documentary</a></li>
+<li><a href="*/Fantasy">Fantasy</a></li>
+<li><a href="*/History">History</a></li>
+<li><a href="*/Horror">Horror</a></li>
+<li><a href="*/Musical">Musical</a></li>
+<li><a href="*/romantic">Romantic</a></li>
+<li><a href="*/Sci-Fi">Sci-Fi</a></li>
+<li><a href="*/War">War</a></li>
+</ul></div>
+	</li>
+	
+	<li class="pushy-submenu half">
+		<span>Years</span>
+		<div class="ff-hide"><ul id="menu-date" class="menu"><li><a href="#">2017  </a></li>
+<li><a href="#">2016  </a></li>
+<li><a href="#">2015  </a></li>
+<li><a href="#">2014  </a></li>
+<li><a href="#">2013  </a></li>
+<li><a href="#">2012  </a></li>
+<li><a href="#">2011  </a></li>
+<li><a href="#">2010  </a></li>
+<li><a href="#">2009  </a></li>
+</ul></div>
+	</li>
+		<li class="menu-item login"><a href="login">Sign In</a></li>
+			</ul>
+</nav>
+</div>
+</header>
+<div class="site-overlay"></div>
+<div class="site-container">
+<div class="site-inner">
+<section class="carousel">
+	<nav>
+		<a class="btn prev"> <img src="images/left-arrow.png" alt="picture"/></a><a class="btn next"> <img src="images/right-arrow.png" alt="picture"/></a>
+	</nav>
+	<div class="owl-carousel">
+		<a rel="bookmark" title="Pirates of the Caribbean: Dead Men Tell No Tales" href="/"><img class="owl-lazy" data-src="images/carousel1.jpg" width="164" height="241" alt="Pirates of the Caribbean: Dead Men Tell No Tales" /></a>
+		<a rel="bookmark" title="Wonder Woman 2017" href="/"><img class="owl-lazy" data-src="images/carousel2.jpg" width="164" height="241" alt="Wonder Woman 2017" /></a>
+		<a rel="bookmark" title="King Arthur" href="/"><img class="owl-lazy" data-src="images/carousel3.jpg" width="164" height="241" alt="King Arthur Legend of the Sword" /></a>
+		<a rel="bookmark" title="Pirates of the Caribbean: Dead Men Tell No Tales" href="/"><img class="owl-lazy" data-src="images/carousel1.jpg" width="164" height="241" alt="Pirates of the Caribbean: Dead Men Tell No Tales" /></a>
+		<a rel="bookmark" title="Wonder Woman 2017" href="/"><img class="owl-lazy" data-src="images/carousel2.jpg" width="164" height="241" alt="Wonder Woman 2017" /></a>
+		<a rel="bookmark" title="King Arthur" href="/"><img class="owl-lazy" data-src="images/carousel3.jpg" width="164" height="241" alt="King Arthur Legend of the Sword" /></a>
+		
+			</div>
+</section>
+<main class="content" role="main">
+<section class="listbox">
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 		<span class="col3"><em>20</em> Comments</span>	</div>
+	<a rel="bookmark" title="Pirates of the Caribbean: Dead Men Tell No Tales" class="item-title">Duration:2 hours <br>Cast:Johnny Depp,Javier Bardem,Geoffrey Rush <br>Directors:Joachim Rønning, Espen Sandberg</a>
+	<img src="images/pirates-of-the-caribbean.jpg" width="164" height="241" alt="Pirates of the Caribbean: Dead Men Tell No Tales" />
+	</div>
+	<div class="l2">
+	<span>Pirates of the Caribbean 5<br> <br>IMDb: 6.8 /10 </span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>8</em> Comments</span>	</div>
+	<a rel="bookmark" value="32424" title="Transformers The Last Knight 2017 " class="item-title"x>Duration:1.5 hours <br>Cast:Mark Wahlberg,Anthony Hopkins,Isabela Moner <br>Directors:Michael Bay </a>
+	<img src="images/transformers.jpg" width="164" height="241" alt=" Transformers The Last Knight 2017" />
+	</div>
+	<div class="l2">
+	<span>Transformers: <br>The Last Knight 2017 <br>IMDb:5.2 /10</span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>34</em> Comments</span>	</div>
+	<a rel="bookmark" title="Wonder Woman 2017" class="item-title"">Duration:1.5 hours <br>Cast:Gal Gadot,Chris Pine,Connie Nielsen<br>Directors:Patty Jenkins</a>
+	<img src="images/wonder-woman.jpg" width="164" height="241" alt="Wonder Woman 2017" />	</div>
+	<div class="l2">
+	<span>Wonder Woman 2017 <br><br>IMDb:7.7 /10</span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>45</em> Comments</span>	</div>
+	<a rel="bookmark" title="King Arthur: Legend of the Sword " class="item-title">Duration:2 hours <br>Cast:Charlie Hunnam,Astrid Bergès-Frisbey,Jude Law<br>Directors:Patty Jenkins</a>
+	<img src="images/king-arthur.jpg" width="164" height="241" alt="King Arthur: Legend of the Sword " />
+	</div>
+	<div class="l2">
+	<span>King Arthur: Legend of the Sword <br> IMDb:6.9 /10</span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 		<span class="col3"><em>20</em> Comments</span>	</div>
+	<a rel="bookmark" title="Pirates of the Caribbean: Dead Men Tell No Tales" class="item-title">Duration:2 hours <br>Cast:Johnny Depp,Javier Bardem,Geoffrey Rush <br>Directors:Joachim Rønning, Espen Sandberg</a>
+	<img src="images/pirates-of-the-caribbean.jpg" width="164" height="241" alt="Pirates of the Caribbean: Dead Men Tell No Tales" />
+	</div>
+	<div class="l2">
+	<span>Pirates of the Caribbean 5 <br><br>IMDb: 6.8 /10 </span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>34</em> Comments</span>	</div>
+	<a rel="bookmark" title="Wonder Woman 2017" class="item-title"">Duration:1.5 hours <br>Cast:Gal Gadot,Chris Pine,Connie Nielsen<br>Directors:Patty Jenkins</a>
+	<img src="images/wonder-woman.jpg" width="164" height="241" alt="Wonder Woman 2017" />	</div>
+	<div class="l2">
+	<span>Wonder Woman 2017 <br><br>IMDb:7.7 /10</span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>45</em> Comments</span>	</div>
+	<a rel="bookmark" title="King Arthur: Legend of the Sword " class="item-title">Duration:2 hours <br>Cast:Charlie Hunnam,Astrid Bergès-Frisbey,Jude Law<br>Directors:Patty Jenkins</a>
+	<img src="images/king-arthur.jpg" width="164" height="241" alt="King Arthur: Legend of the Sword " />
+	</div>
+	<div class="l2">
+	<span>King Arthur: Legend of the Sword <br> IMDb:6.9 /10</span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 		<span class="col3"><em>20</em> Comments</span>	</div>
+	<a rel="bookmark" title="Pirates of the Caribbean: Dead Men Tell No Tales" class="item-title">Duration:2 hours <br>Cast:Johnny Depp,Javier Bardem,Geoffrey Rush <br>Directors:Joachim Rønning, Espen Sandberg</a>
+	<img src="images/pirates-of-the-caribbean.jpg" width="164" height="241" alt="Pirates of the Caribbean: Dead Men Tell No Tales" />
+	</div>
+	<div class="l2">
+	<span>Pirates of the Caribbean 5<br> <br>IMDb: 6.8 /10 </span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>34</em> Comments</span>	</div>
+	<a rel="bookmark" title="Wonder Woman 2017" class="item-title"">Duration:1.5 hours <br>Cast:Gal Gadot,Chris Pine,Connie Nielsen<br>Directors:Patty Jenkins</a>
+	<img src="images/wonder-woman.jpg" width="164" height="241" alt="Wonder Woman 2017" />	</div>
+	<div class="l2">
+	<span>Wonder Woman 2017 <br><br>IMDb:7.7 /10</span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>45</em> Comments</span>	</div>
+	<a rel="bookmark" title="King Arthur: Legend of the Sword " class="item-title">Duration:2 hours <br>Cast:Charlie Hunnam,Astrid Bergès-Frisbey,Jude Law<br>Directors:Patty Jenkins</a>
+	<img src="images/king-arthur.jpg" width="164" height="241" alt="King Arthur: Legend of the Sword " />
+	</div>
+	<div class="l2">
+	<span>King Arthur: Legend of the Sword <br> IMDb:6.9 /10</span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 		<span class="col3"><em>20</em> Comments</span>	</div>
+	<a rel="bookmark" title="Pirates of the Caribbean: Dead Men Tell No Tales" class="item-title">Duration:2 hours <br>Cast:Johnny Depp,Javier Bardem,Geoffrey Rush <br>Directors:Joachim Rønning, Espen Sandberg</a>
+	<img src="images/pirates-of-the-caribbean.jpg" width="164" height="241" alt="Pirates of the Caribbean: Dead Men Tell No Tales" />
+	</div>
+	<div class="l2">
+	<span>Pirates of the Caribbean 5<br> <br>IMDb: 6.8 /10 </span>
+	</div>
+</div>
+<div class="list-item">
+	<div class="l1">
+	<div class="col">
+	 	<span class="col3"><em>34</em> Comments</span>	</div>
+	<a rel="bookmark" title="Wonder Woman 2017" class="item-title"">Duration:1.5 hours <br>Cast:Gal Gadot,Chris Pine,Connie Nielsen<br>Directors:Patty Jenkins</a>
+	<img src="images/wonder-woman.jpg" width="164" height="241" alt="Wonder Woman 2017" />	</div>
+	<div class="l2">
+	<span>Wonder Woman 2017 <br><br>IMDb:7.7 /10</span>
+	</div>
+</div>
+
+</section>
+</main>
+<aside class="sidebar" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+
+<!-- movie picker -->
+<section class="search-filter">
+<h4>Movie Picker</h4>
+<form method="get" action="movie-picker"> 
+<div class="filter">
+<select name="Year" id="Year">
+	<option value="">- Year -</option>
+		<option value="32424">2017 </option>
+		<option value="32423">2016 </option>
+		<option value="32413">2015 </option>
+		<option value="32249">2014 </option>
+		<option value="24623">2013 </option>
+		<option value="14150">2012 </option>
+		<option value="5259">2011 </option>
+		<option value="1124">2010 </option>
+		<option value="1144">2009 </option>
+	</select>
+</div>
+<div class="filter">
+<select name="Category" id="Category">
+	<option value="">- Category -</option>
+		<option value="289">Action</option>
+		<option value="278">Adventure</option>
+		<option value="287">Animation</option>
+		<option value="283">Biography</option>
+		<option value="290">Cartoon</option>
+		<option value="291">Comedy</option>
+		<option value="297">Detective</option>
+		<option value="292">Documentary</option>
+		<option value="293">Drama</option>
+		<option value="282">Fantasy</option>
+		<option value="301">History</option>
+		<option value="280">Horror</option>
+		<option value="294">Musical</option>
+		<option value="32418">Romantic</option>
+		<option value="277">Sci-Fi</option>
+		<option value="285">War</option>	
+	</select>
+</div>
+<div class="filter">
+<select name="imdb" id="imdb">
+	<option value="">- IMDb Rating -</option>
+	<option value="9">9+</option>
+	<option value="8">8+</option>
+	<option value="7">7+</option>
+	<option value="6">6+</option>
+	<option value="5">5+</option>
+</select>
+<div id="movietoken"></div>
+</div>
+<div class="submit">
+<input type="submit" value="Search" />
+<button class="reset" type="reset">Reset</button>
+</div>
+</form>
+</section>
+
+<section class="categories">
+<h4>MOVIE GENRE</h4>
+<ul>
+<li><a href="*/Action"> Action</a></li>
+<li><a href="*/Adventure">Adventure</a></li>
+<li><a href="*/Animation">Animation</a></li>
+<li><a href="*/Biography">Biography</a></li>
+<li><a href="*/Cartoon">Cartoon</a></li>
+<li><a href="*/Comedy">Comedy</a></li>
+<li><a href="*/Detective">Detective</a></li>
+<li><a href="*/Documentary">Documentary</a></li>
+<li><a href="*/Fantasy">Fantasy</a></li>
+<li><a href="*/History">History</a></li>
+<li><a href="*/Horror">Horror</a></li>
+<li><a href="*/Musical">Musical</a></li>
+<li><a href="*/romantic">Romantic</a></li>
+<li><a href="*/Sci-Fi">Sci-Fi</a></li>
+<li><a href="*/War">War</a></li>
+</ul>
+</section>
+
+<section class="angular-movie-search">
+	<h4>ANGULAR MOVIE SEARCH</h4>
+<div class="container" ng-app="sortApp" ng-controller="mainController">
+ 
+  
+  <form>
+    <section class="categories">
+      <div class="input-section">
+        <input type="search" name="search" placeholder="Search a Movie" rel="search" ng-model="searchMovies"/> 
+      </div>      
+    </section>
+  </form>
+  
+  <table class ="table table-bordered table-striped">
+    
+    <thead>
+      <tr>
+        <td>
+          <a href="" ng-click="sortType = 'name'; sortReverse = !sortReverse" onclick="toggleRow(this);">
+            Name
+            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+          </a>
+        </td>
+        <td>
+          <a href="" ng-click="sortType = 'Category'; sortReverse = !sortReverse">
+          Category
+            <span ng-show="sortType == 'Category' && !sortReverse" class="fa fa-caret-down"></span>
+            <span ng-show="sortType == 'Category' && sortReverse" class="fa fa-caret-up"></span>
+          </a>
+        </td>
+        <td>
+          <a href="" ng-click="sortType = 'Imdb'; sortReverse = !sortReverse">
+          Imdb
+            <span ng-show="sortType == 'Imdb' && !sortReverse" class="fa fa-caret-down"></span>
+            <span ng-show="sortType == 'Imdb' && sortReverse" class="fa fa-caret-up"></span>
+          </a>
+        </td>
+      </tr>
+    </thead>
+    
+    <tbody>
+      <tr ng-repeat="roll in movie | orderBy:sortType:sortReverse | filter:searchMovies">
+        <td>{{ roll.name }}</td>
+        <td>{{ roll.Category }}</td>
+        <td>{{ roll.Imdb }}</td>
+      </tr>
+    </tbody>
+    
+  </table>
+ 
+</div>
+</section>
+</aside>
+</div>
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+
+<div class="wrap">
+	Made  with ❤ by Salih Demir</a>
+	
+	
+		</div>
+
+		<!--Angular Js Movie Search Box by category,movie name and Imdb-->
+<script type="text/javascript">
+	 angular.module('sortApp', [])
+
+.controller('mainController', function($scope) {
+  $scope.sortType     = 'name'; // set the default sort type
+  $scope.sortReverse  = false;  // set the default sort order
+  $scope.searchMovies   = '';     // set the default search/filter term
+  
+  $scope.movie = [
+    { name: 'Pirates of the Caribbean', Category: 'Fantasy', Imdb:'6.8'  },
+    { name: 'Wonder Woman', Category: 'Sci-Fi', Imdb: '7.7' },
+    { name: 'King Arthur:Legend of the Sword', Category:'Drama', Imdb:'6.3' },
+    { name: 'Transformers The Last Knight', Category: 'Sci-Fi', Imdb: '5.2' }
+  ];
+  
+});
+</script>
+<script type="text/javascript"> function toggleRow(e){
+    var subRow = e.parentNode.parentNode.nextElementSibling;
+    subRow.style.display = subRow.style.display === 'none' ? 'table-row' : 'none';    
+}</script>
+</footer>
+</div>
+</body>
+</html>

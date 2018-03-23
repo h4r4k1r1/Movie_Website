@@ -1,0 +1,203 @@
+body {
+	background-image: url("/images/dark-pattern.png");
+}
+
+body,
+.site-inner,
+.uyelik,
+.full-width .content {
+	background-color: #18222b;
+}
+
+.site-footer li a:hover,
+a {
+	color: #fff;
+}
+
+.movie-title h1,
+.archive-title h1 {
+	text-shadow: none;
+}
+
+input,
+select,
+textarea {
+	background-color: transparent;
+	color: rgba(255,255,255,0.5);
+	border-color: #303941;
+	border-radius: 2px;
+}
+
+.part span,
+.search-filter .selected select,
+input:focus,
+textarea:focus {
+	border-color: #525960;
+}
+
+.button,
+button,
+input[type="submit"] {
+	border-bottom: 3px solid rgba(0,0,0,.35);
+	text-shadow: 1px 1px rgba(0,0,0,.25);
+}
+
+.button:hover,
+button:hover,
+input:hover[type="submit"] {
+	background-color: #146ba4;
+}
+
+.mobile-menu .search input[type="submit"] {
+	color: rgba(255,255,255,0.5);
+}
+
+.page-template-default .uyelik {margin-left: 0;}
+.page-template-default .uyelik .tml {flex: 1 0 calc(50% - 0);margin-left: 0;}
+
+.search-filter .button {
+	color: #fff;
+	background-color: #f1a02c;
+	background: linear-gradient(45deg, rgba(241,97,44,1) 0%, rgba(241,159,44,1) 100%);
+}
+
+.wprc-container select option,
+.search-filter select option {
+	font-weight: 300;
+	background-color: #18222b;
+}
+
+.archive-title:after {color: rgba(255,255,255,.050);}
+
+.mobile-menu .wrap,
+.wprc-container .wprc-reason,
+.sidebar h4,
+.movie-title,
+.site-header,
+.site-footer .wrap,
+.archive-title,
+.carousel {
+	background-color: #121b23;
+	background: #121b23;
+}
+
+.site-inner .content {
+	border-right: 1px solid #1d262f;
+}
+
+.listbox .l2 {
+	border: none;
+	background-color: #141d25;
+	background: linear-gradient(to bottom, rgba(20,29,37,1) 0%, rgba(20,29,37,0) 100%);;
+}
+
+.search-filter .filter.selected:after,
+.search-filter .filter:hover::after,
+body,
+.site-inner,
+.movie-title,
+.listbox .l2,
+.movie-content .meta a:hover,
+.spoiler-box,
+#add_post_rating,
+a.reveal {
+	color: #dcdedf;
+}
+
+.category-seo a,
+.search-filter .filter:after,
+.breadcrumb li:after,
+.breadcrumb li a,
+.movie-content .meta a,
+.movie-content .meta,
+.comment-time,
+.latest-comments span,
+.site-footer p {
+	color: #525960;
+}
+
+/* Pagination */
+.note {background-color: transparent; border-color: #303941;}
+.page-numbers span,.page-numbers li a {border: 1px solid #5e656b;color: #fff;}
+span.current,.page-numbers li a:hover {background-color: #2980b9;border: 1px solid #2980b9;}
+span.dots {border: none;}
+
+/* Comments */
+.comment-list .author span {color: #fff;background-color: #0e141a;border: none;}
+.comment-list .author span:before {display: none;}
+.comment-list .author span:after {border-color: #0e141a transparent;bottom: -7px;}
+.comments-title span {color: #f6bb42;}
+.spoiler-box {font-weight: 300;border: none;background-color: rgba(0,0,0,0.15);}
+.spoiler-box span {color: #dcdedf;}
+.star-on-png, .star-off-png, .star-half-png {color: #f1a02c;}
+#add_post_rating {background-color: #0e141a;}
+#add_post_rating:not(:empty) {border-color: transparent;}
+#add_post_rating:not(:empty):before{border-right-color: #0e141a; border-width:7px}
+#add_post_rating:not(:empty):after{border-right-color: transparent; border-width:9px}
+a.reveal {background-color: transparent;border: 1px solid rgba(255,255,255,0.45);}
+a.reveal:hover {background-color: #2980b9;border: 1px solid #2980b9;color: #fff;}
+
+/* Film */
+.movie-title {border: none;}
+
+.part {
+	color: #fff;
+	background: linear-gradient(to bottom, rgba(18,27,35,0) 0%, rgba(18,27,35,1) 100%);
+}
+
+.movie-menu {
+	background: linear-gradient(to bottom, rgba(18,27,35,1) 0%, rgba(18,27,35,0) 100%);
+}
+
+.movie-menu li > a,
+.part a span {
+	color: rgba(255,255,255,0.4)
+}
+
+.header-menu .pushy-submenu-open ul li a:hover,
+.movie-menu li:hover > a,
+.movie-menu li > a:hover {
+	color: #2980b9;
+}
+
+.header-menu .pushy-submenu-open ul li a,
+.share li a {
+	color: #222;
+	font-weight: 300;
+}
+
+.wprc-container .wprc-reason {
+	border: none;
+}
+
+.mobile-menu .search,
+.leaderboard,
+.movie-menu,
+.latest-comments .c1,
+.movie-content,
+.comment-list > li {
+	border-bottom: 1px solid #242d36;
+}
+
+.category-seo {
+	border-top: 1px solid #242d36;
+}
+
+.category-seo:after {
+	background: linear-gradient(to bottom, rgba(18,27,35,0) 0%, rgba(18,27,35,0.75) 100%);
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.movie-menu > li {
+		border-top: 1px solid #242d36;
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+
+	.uyelik .tml:nth-of-type(2) {
+		border-top: 1px solid #242d36;
+	}
+	
+}
